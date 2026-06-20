@@ -94,3 +94,9 @@ excluded_sectors:
 excluded_roles:
   - "Vendeuse terrain classique"
   - "Prospection froide non-éthique"
+
+scanning:
+  offer_freshness:
+    max_age_days: 14
+    description: "Ne conserver que les offres publiées depuis moins de 14 jours"
+  priority: "Offres fraîches = meilleure chance de réponse du recruteur"
