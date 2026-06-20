@@ -18,13 +18,14 @@ seniority: "Confirmée"  # 2-5 ans, autonome sur le poste
 
 target_roles:
   primary:
-    - "Closer / Conseiller de Vente éthique (Solutions Transformation, Bien-être & Santé Mentale)"
-    - "Conseillère en formation / Admission & Enrollment Advisor (EdTech)"
-    - "Customer Success Manager (EdTech / HealthTech)"
-    - "Responsable des partenariats à impact / Solutions Financement État"
-    - "Customer Education Manager / Success Trainer (Onboarding, pédagogie client)"
-    - "Sales Enablement & IA Facilitator (Automatisation & processus pédagogiques)"
-    - "Consultante en Transformation Human-Centric (Workshop, formation interne, organisation)"
+    - "Enrollment Advisor (EdTech / HealthTech)"
+    - "Learning Consultant / Success Trainer (Onboarding, pédagogie apprenant)"
+    - "Customer Success Manager (EdTech / HealthTech / Impact Social)"
+    - "Partnership Manager Impact / Responsable partenariats à impact"
+  secondary:
+    - "Conseiller en formation & montée en compétences"
+    - "Customer Education Manager"
+    - "Sales Enablement & IA Facilitator"
   archetypes:
     - name: "Closing Éthique & Conseil en Évolution Professionnelle"
       level: "Transition / Certifiée"
@@ -40,14 +41,15 @@ target_roles:
       fit: "secondary"
 
 narrative:
-  headline: "Experte en Vente Conseil (Luxe & Bien-être) reconvertie dans le Closing Éthique et la Tech à impact."
-  exit_story: "Forte d'une solide expérience validée sur le terrain (Vente en boutique de luxe et salons de bien-être), j'ai choisi de mettre mes compétences d'écoute, de ciblage de clients et d'élaboration d'offres packagées au service de solutions à impact positif : santé mentale, formation, prévention du burnout et bien-être général."
+  headline: "Commerciale en transition EdTech & Santé Mentale. Closing + Pédagogie = Enrollment & Customer Success."
+  exit_story: "6 ans en vente B2C haute valeur (luxe, bien-être) m'ont enseigné l'écoute active, la détection de besoins profonds et la construction de confiance durable. J'ai réalisé que ma superpower n'est pas la vente transactionnelle, mais l'onboarding et la fidélisation via la pédagogie. Je cible EdTech et HealthTech pour utiliser mes techniques de closing au service de la montée en compétences et du succès de l'apprenant, pas de la vente produit."
   superpowers:
-    - "Closing éthique & Traitement des objections (Formée chez Closer Evolution)"
-    - "Écoute active, psychologie client et fidélisation durable (satisfaction & NPS élevés)"
-    - "Création de campagnes publicitaires (TikTok, Instagram, Facebook Ads) pour le secteur Bien-être"
-    - "Ciblage de clients, structuration d'offres packagées et négociation"
-    - "Maîtrise des outils d'IA (ChatGPT, Heygen, Capcut) pour l'acquisition digitale"
+    - "Closing éthique & Traitement des objections appliqués à la pédagogie (Certification Closer Evolution)"
+    - "Identification des besoins de montée en compétences via l'écoute active et la psychologie client"
+    - "Onboarding & fidélisation apprenant via la relation long-terme (NPS élevé, satisfaction client documentée)"
+    - "Transformation du discours de closing en communication bienveillante pour EdTech/HealthTech"
+    - "Design pédagogique : guides, ateliers, agents IA pour autonomisation de l'apprenant"
+    - "Maîtrise des outils IA (Claude, ChatGPT, agents) pour l'enablement et le support apprenant"
   proof_points:
     - name: "Closing en salon bien-être (Diamond Light)"
       url: ""
@@ -79,6 +81,13 @@ deal_breakers:
   - "Commission pure sans aucun fixe garanti"
   - "Vente non-éthique : pression, scripts agressifs, produits douteux, dark patterns"
 
+target_sectors:
+  primary:
+    - "EdTech (formation, e-learning, upskilling)"
+    - "HealthTech (santé digitale, telemedicine)"
+    - "Santé Mentale (bien-être, prévention burnout)"
+    - "Impact Social (solutions à impact positif)"
+
 excluded_sectors:
   - "Assurance"
   - "Mutuelle"
@@ -86,14 +95,17 @@ excluded_sectors:
   - "Immobilier"
   - "MLM / marketing de réseau"
   - "Systèmes pyramidaux / Ponzi"
-  - "Luxe"
+  - "Retail de luxe"
   - "Maroquinerie"
-  - "Finance"
+  - "Finance spéculative"
   - "Automobile / voitures"
 
 excluded_roles:
   - "Vendeuse terrain classique"
   - "Prospection froide non-éthique"
+  - "Client Advisor retail de luxe"
+  - "Vendeuse boutique (maroquinerie, cristal, haute couture)"
+  - "Responsable de vente transactionnelle"
 
 scanning:
   offer_freshness:
