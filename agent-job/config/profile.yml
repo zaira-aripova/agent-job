@@ -1,0 +1,96 @@
+# Mantra Career Agent Profile Configuration
+# Copy this file to config/profile.yml and fill in your details.
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Zaira Aripova"
+  email: "aripova.za9@gmail.com"
+  phone: "0744916509"
+  location: "Châteauroux / Paris, France"
+  linkedin: "linkedin.com/in/zaira-aripova"
+  portfolio_url: "https://zaira-aripova.github.io/Zaira_Aripova_CV/"
+  github: ""
+  twitter: ""
+  video_pitch: "https://youtube.com/shorts/HagFHKZw9rg"
+  video_workshop: "https://youtube.com/watch?v=m577dfUkqZs"  # Workshop "Transformer les objections en opportunités"
+
+seniority: "Confirmée"  # 2-5 ans, autonome sur le poste
+
+target_roles:
+  primary:
+    - "Closer / Conseiller de Vente éthique (Solutions Transformation, Bien-être & Santé Mentale)"
+    - "Conseillère en formation / Admission & Enrollment Advisor (EdTech)"
+    - "Customer Success Manager (EdTech / HealthTech)"
+    - "Responsable des partenariats à impact / Solutions Financement État"
+    - "Customer Education Manager / Success Trainer (Onboarding, pédagogie client)"
+    - "Sales Enablement & IA Facilitator (Automatisation & processus pédagogiques)"
+    - "Consultante en Transformation Human-Centric (Workshop, formation interne, organisation)"
+  archetypes:
+    - name: "Closing Éthique & Conseil en Évolution Professionnelle"
+      level: "Transition / Certifiée"
+      fit: "primary"
+    - name: "Customer Success & Education (Onboarding, pédagogie client)"
+      level: "Confirmée"
+      fit: "primary"
+    - name: "Conseil & Psychologie Client (Écoute active, fidélisation, satisfaction)"
+      level: "Confirmée"
+      fit: "primary"
+    - name: "Inside Sales / Business Developer (Niches Éthiques / Solutions à Impact)"
+      level: "Intermédiaire"
+      fit: "secondary"
+
+narrative:
+  headline: "Experte en Vente Conseil (Luxe & Bien-être) reconvertie dans le Closing Éthique et la Tech à impact."
+  exit_story: "Forte d'une solide expérience validée sur le terrain (Vente en boutique de luxe et salons de bien-être), j'ai choisi de mettre mes compétences d'écoute, de ciblage de clients et d'élaboration d'offres packagées au service de solutions à impact positif : santé mentale, formation, prévention du burnout et bien-être général."
+  superpowers:
+    - "Closing éthique & Traitement des objections (Formée chez Closer Evolution)"
+    - "Écoute active, psychologie client et fidélisation durable (satisfaction & NPS élevés)"
+    - "Création de campagnes publicitaires (TikTok, Instagram, Facebook Ads) pour le secteur Bien-être"
+    - "Ciblage de clients, structuration d'offres packagées et négociation"
+    - "Maîtrise des outils d'IA (ChatGPT, Heygen, Capcut) pour l'acquisition digitale"
+  proof_points:
+    - name: "Closing en salon bien-être (Diamond Light)"
+      url: ""
+      hero_metric: "7 280 € de CA sur 5 salons en 19 jours + agent IA de closing développé"
+    - name: "Conversion premium (Valentino Garavani)"
+      url: ""
+      hero_metric: "Taux de conversion 25-30% sur clients qualifiés, panier moyen 1 000 €"
+    - name: "Satisfaction client (Sandro Paris)"
+      url: ""
+      hero_metric: "NPS élevé, nombreuses mentions nominatives sur Google Avis"
+    - name: "Enablement & formation commerciale"
+      url: "https://youtube.com/watch?v=m577dfUkqZs"
+      hero_metric: "Workshop vidéo 'Transformer les objections en opportunités' + guides & agents IA de formation"
+
+compensation:
+  target_range: "45-55K€ brut annuel (fixe + variable au closing)"
+  currency: "EUR"
+  minimum: "~40K€ de fixe garanti minimum (variable en plus)"
+  location_flexibility: "Full remote en priorité, hybride ou présentiel léger accepté (Paris)"
+
+location:
+  country: "France"
+  city: "Châteauroux (base) — mobile sur Paris"
+  timezone: "CET"
+  visa_status: "Pas de parrainage requis"
+  work_mode: "Remote prioritaire > hybride > présentiel léger"
+
+deal_breakers:
+  - "Commission pure sans aucun fixe garanti"
+  - "Vente non-éthique : pression, scripts agressifs, produits douteux, dark patterns"
+
+excluded_sectors:
+  - "Assurance"
+  - "Mutuelle"
+  - "Crypto / trading"
+  - "Immobilier"
+  - "MLM / marketing de réseau"
+  - "Systèmes pyramidaux / Ponzi"
+  - "Luxe"
+  - "Maroquinerie"
+  - "Finance"
+  - "Automobile / voitures"
+
+excluded_roles:
+  - "Vendeuse terrain classique"
+  - "Prospection froide non-éthique"
